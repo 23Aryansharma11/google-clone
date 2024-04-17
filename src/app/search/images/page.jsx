@@ -25,7 +25,7 @@ const ImageSearchPage = async ({ searchParams }) => {
         <h1 className=" text-2xl font-semibold">No result found for</h1>
         <span className=" text-lg font-medium">
           {" "}
-          "{searchParams.searchTerm}"
+          {searchParams.searchTerm}
         </span>
         <p className="text-lg text-center">
           Try searching for Something else
