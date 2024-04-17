@@ -3,7 +3,7 @@
 
 [X] Add home-header
 
-[ ] Add body
+[X] Add body
 
 [ ] Add footer
 
