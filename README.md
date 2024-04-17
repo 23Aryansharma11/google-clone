@@ -39,3 +39,8 @@
 ```@/*: ["./src/*"] ```
 
 ```C/*:  ["./src/components/*"]```
+
+### Images attribute
+
+
+    Google Image: <a href="https://iconscout.com/icons/google" class="text-underline font-size-sm" target="_blank">Google</a> by <a href="https://iconscout.com/contributors/icon-mafia" class="text-underline font-size-sm" target="_blank">Icon Mafia</a>
