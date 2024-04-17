@@ -2,6 +2,7 @@ import ImageSearchResult from "C/ImageSearchResult";
 import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";
+import loading from "./loading";
 
 const ImageSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams?.start || 1;
@@ -36,7 +37,7 @@ const ImageSearchPage = async ({ searchParams }) => {
     );
   }
   return (
-    <Suspense>
+    <Suspense fallback={loading}>
       <div>
       <ImageSearchResult results={data} />
     </div>
