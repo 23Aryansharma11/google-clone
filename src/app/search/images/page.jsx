@@ -15,7 +15,7 @@ const ImageSearchPage = async ({ searchParams }) => {
     return (
       <div className="flex flex-col justify-center text-center items-center ">
         <img
-          src="/Images/Searcher.svg"
+          src="/Images/BoredMan.svg"
           alt="Bored man"
           width={500}
           height={100}
