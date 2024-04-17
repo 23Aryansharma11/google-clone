@@ -21,7 +21,7 @@
 
 [X] Loading effect and skeleton
 
-[ ] Deploy
+[X] Deploy
 
 
 ## Folder structure
