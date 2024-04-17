@@ -1,5 +1,5 @@
 import ImageSearchResult from "C/ImageSearchResult";
-import WebSearchResult from "C/WebSearchResult";
+import WebSearchResult from "C/WebSearchResult"; 
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -23,10 +23,7 @@ const ImageSearchPage = async ({ searchParams }) => {
           style={{ width: "auto", maxWidth: "500px" }}
         />
         <h1 className=" text-2xl font-semibold">No result found for</h1>
-        <span className=" text-lg font-medium">
-          {" "}
-          {searchParams.searchTerm}
-        </span>
+        <span className=" text-lg font-medium"> {searchParams.searchTerm}</span>
         <p className="text-lg text-center">
           Try searching for Something else
           <Link
