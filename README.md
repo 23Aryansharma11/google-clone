@@ -50,3 +50,5 @@
     Cannot Fetch: <a href="https://iconscout.com/icons/wow-emotion-face" class="text-underline font-size-sm" target="_blank">Wow Emotion Face</a> by <a href="https://iconscout.com/contributors/komkrit-noenpoempisut" class="text-underline font-size-sm">itim2101</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
 
     Bored Man: <a href="https://iconscout.com/icons/man" class="text-underline font-size-sm" target="_blank">Man</a> by <a href="https://iconscout.com/contributors/icograms" class="text-underline font-size-sm" target="_blank">Icograms</a>
+
+    Searcher: <a href="https://iconscout.com/icons/man" class="text-underline font-size-sm" target="_blank">Man</a> by <a href="https://iconscout.com/contributors/icograms" class="text-underline font-size-sm">Icograms</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
