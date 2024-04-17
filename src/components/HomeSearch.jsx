@@ -16,7 +16,7 @@ export default function HomeSearch() {
         <span className="flex justify-center items-center gap-2">
           <img
             src="/Images/NothingToSearch.svg"
-            alt="Sleepy-Robot"
+            alt="Nothing to search"
             width={30}
             height={30}
             className=""

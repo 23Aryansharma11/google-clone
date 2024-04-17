@@ -9,7 +9,7 @@
 
 [X] Add search pages ( for web and image)
 
-[ ] Search Header component
+[X] Search Header component
 
 [ ] Data fetching
 
