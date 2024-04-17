@@ -19,7 +19,7 @@
 
 [X] Pagination
 
-[ ] Loading effect and skeleton
+[X] Loading effect and skeleton
 
 [ ] Deploy
 
