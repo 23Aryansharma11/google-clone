@@ -13,7 +13,7 @@
 
 [X] Data fetching
 
-[ ] Handling errors
+[X] Handling errors
 
 [ ] Search components
 
@@ -48,3 +48,5 @@
     Nothing To Search: <a href="https://iconscout.com/icons/discontent-emotion-face" class="text-underline font-size-sm" target="_blank">Discontent Emotion Face</a> by <a href="https://iconscout.com/contributors/komkrit-noenpoempisut" class="text-underline font-size-sm" target="_blank">itim2101</a>
 
     Cannot Fetch: <a href="https://iconscout.com/icons/wow-emotion-face" class="text-underline font-size-sm" target="_blank">Wow Emotion Face</a> by <a href="https://iconscout.com/contributors/komkrit-noenpoempisut" class="text-underline font-size-sm">itim2101</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+
+    Bored Man: <a href="https://iconscout.com/icons/man" class="text-underline font-size-sm" target="_blank">Man</a> by <a href="https://iconscout.com/contributors/icograms" class="text-underline font-size-sm" target="_blank">Icograms</a>

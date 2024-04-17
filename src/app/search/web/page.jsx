@@ -1,18 +1,46 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
-const WebSearchPage = async( {searchParams} ) => {
-  const response = await fetch(`https://www.googleapis.com/customsearch/v1?key=${process.env.GOOGLE_API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${searchParams.searchTerm}`)
+const WebSearchPage = async ({ searchParams }) => {
+  const response = await fetch(
+    `https://www.googleapis.com/customsearch/v1?key=${process.env.GOOGLE_API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${searchParams.searchTerm}`
+  );
+  if (!response.ok) throw new Error("Something went wrong");
   const data = await response.json();
   const results = data.items;
+  if (!results) {
+    return (
+      <div className="flex flex-col justify-center text-center items-center ">
+        <img
+          src="/Images/BoredMan.svg"
+          alt="Bored man"
+          width={500}
+          height={100}
+          style={{ width: "auto", maxWidth: "500px" }}
+        />
+        <h1 className=" text-2xl font-semibold">No result found for</h1>
+        <span className=" text-lg font-medium">
+          {" "}
+          "{searchParams.searchTerm}"
+        </span>
+        <p className="text-lg text-center">
+          Try searching for Something else
+          <Link
+            className="text-blue-500 cursor-pointer hover:underline ml-2"
+            href="/"
+          >
+            Home
+          </Link>
+        </p>
+      </div>
+    );
+  }
   return (
     <div>
-      {
-        results&& results.map((result, index)=>(
-          <h1 key={index}>{result.title}</h1>
-        ))
-      }
+      {results &&
+        results.map((result, index) => <h1 key={index}>{result.title}</h1>)}
     </div>
-  )
-}
+  );
+};
 
-export default WebSearchPage
+export default WebSearchPage;
