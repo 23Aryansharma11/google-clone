@@ -3,6 +3,7 @@ import Link from "next/link";
 import SearchBox from "C/SearchBox";
 import { TbGridDots } from "react-icons/tb";
 import { RiSettings3Line } from "react-icons/ri";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 
 const SearchHeader = () => {
@@ -30,6 +31,7 @@ const SearchHeader = () => {
             Sign In
           </button>
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 };
