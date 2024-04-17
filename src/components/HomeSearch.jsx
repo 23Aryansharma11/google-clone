@@ -15,7 +15,7 @@ export default function HomeSearch() {
       toast(
         <span className="flex justify-center items-center gap-2">
           <img
-            src="/Images/RobotSleep.svg"
+            src="/Images/NothingToSearch.svg"
             alt="Sleepy-Robot"
             width={30}
             height={30}
@@ -32,14 +32,14 @@ export default function HomeSearch() {
 
   const randomSearch = async (e) => {
     e.preventDefault();
-    setRandomSearchLoading(true)
+    setRandomSearchLoading(true);
     const randomWord = await fetch(`https://random-word-api.herokuapp.com/word`)
       .then((res) => res.json())
       .then((data) => data[0])
       .catch((error) => console.log(error));
     console.log(randomWord);
     if (!randomWord) return;
-    setRandomSearchLoading(false)
+    setRandomSearchLoading(false);
     router.push(`/search/web?searchTerm=${randomWord}`);
   };
   return (
@@ -68,8 +68,10 @@ export default function HomeSearch() {
           Google Search
         </button>
         <button
-        disabled={randomSearchLoading}
-          className={`bg-[#F8F9FA] rounded-md text-sm text-gray-800 hover:ring-gray-200 focus:outline-none active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow ${randomSearchLoading && "animate-spin"} disabled:opacity-80 disabled:shadow-sm`}
+          disabled={randomSearchLoading}
+          className={`bg-[#F8F9FA] rounded-md text-sm text-gray-800 hover:ring-gray-200 focus:outline-none active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow ${
+            randomSearchLoading && "animate-spin"
+          } disabled:opacity-80 disabled:shadow-sm`}
           onClick={randomSearch}
         >
           {randomSearchLoading ? "Searching.." : "I am feeling lucky"}

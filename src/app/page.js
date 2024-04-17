@@ -13,12 +13,14 @@ export default function Home() {
           width={300}
           height={100}
           priority
-          style={{width: "auto", maxWidth: "250px"} }
+          style={{ width: "auto", maxWidth: "250px" }}
         />
         <HomeSearch />
-        <Toaster toastOptions={{
+        <Toaster
+          toastOptions={{
             duration: 900,
-        }}/>
+          }}
+        />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
 
 [X] Add body
 
-[ ] Add footer
+[X] Add footer
 
 [ ] Add search pages ( for web and image)
 
@@ -44,3 +44,7 @@
 
 
     Google Image: <a href="https://iconscout.com/icons/google" class="text-underline font-size-sm" target="_blank">Google</a> by <a href="https://iconscout.com/contributors/icon-mafia" class="text-underline font-size-sm" target="_blank">Icon Mafia</a>
+
+    Nothing To Search: <a href="https://iconscout.com/icons/discontent-emotion-face" class="text-underline font-size-sm" target="_blank">Discontent Emotion Face</a> by <a href="https://iconscout.com/contributors/komkrit-noenpoempisut" class="text-underline font-size-sm" target="_blank">itim2101</a>
+
+    Cannot Fetch: <a href="https://iconscout.com/icons/wow-emotion-face" class="text-underline font-size-sm" target="_blank">Wow Emotion Face</a> by <a href="https://iconscout.com/contributors/komkrit-noenpoempisut" class="text-underline font-size-sm">itim2101</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
