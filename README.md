@@ -17,7 +17,7 @@
 
 [X] Search components
 
-[ ] Pagination
+[X] Pagination
 
 [ ] Loading effect and skeleton
 
