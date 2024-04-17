@@ -7,7 +7,7 @@
 
 [X] Add footer
 
-[ ] Add search pages ( for web and image)
+[X] Add search pages ( for web and image)
 
 [ ] Search Header component
 
