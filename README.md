@@ -1,7 +1,7 @@
 ### Google Clone
 ## Checklist
 
-[ ] Add home and header
+[X] Add home-header
 
 [ ] Add body
 
