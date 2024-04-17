@@ -2,7 +2,7 @@ import WebSearchResult from "C/WebSearchResult";
 import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";
-import loading from "./loading";
+
 
 const WebSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams?.start || 1;
@@ -40,7 +40,7 @@ const WebSearchPage = async ({ searchParams }) => {
     );
   }
   return (
-    <Suspense fallback={loading}>
+    <Suspense >
       <div>
       <WebSearchResult results={data} />
     </div>

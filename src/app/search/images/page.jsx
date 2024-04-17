@@ -37,7 +37,7 @@ const ImageSearchPage = async ({ searchParams }) => {
     );
   }
   return (
-    <Suspense fallback={loading}>
+    <Suspense>
       <div>
       <ImageSearchResult results={data} />
     </div>
