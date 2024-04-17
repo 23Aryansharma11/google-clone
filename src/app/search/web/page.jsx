@@ -1,4 +1,5 @@
 import WebSearchResult from "C/WebSearchResult";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,7 +14,7 @@ const WebSearchPage = async ({ searchParams }) => {
   if (!results) {
     return (
       <div className="flex flex-col justify-center text-center items-center ">
-        <img
+        <Image
           src="/Images/BoredMan.svg"
           alt="Bored man"
           width={500}

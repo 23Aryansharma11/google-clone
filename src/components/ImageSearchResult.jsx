@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import PaginationButtons from "./PaginationButtons";
+import Image from "next/image";
 
 const ImageSearchResult = ({ results }) => {
   return (

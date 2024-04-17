@@ -5,6 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import toast from "react-hot-toast";
+import Image from "next/image";
 export default function SearchBox() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -15,11 +16,12 @@ export default function SearchBox() {
     if(term == ''){
         toast(
             <span className="flex justify-center items-center gap-2">
-              <img
+              <Image
                 src="/Images/NothingToSearch.svg"
                 alt="Nothing to search"
                 width={30}
                 height={30}
+                style={{height:"auto"}}
                 className=""
               />
               <span>Nothing to search !</span>

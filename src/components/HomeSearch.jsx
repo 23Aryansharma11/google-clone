@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import toast from "react-hot-toast";
@@ -14,11 +15,12 @@ export default function HomeSearch() {
     if (!input.trim()) {
       toast(
         <span className="flex justify-center items-center gap-2">
-          <img
+          <Image
             src="/Images/NothingToSearch.svg"
             alt="Nothing to search"
             width={30}
             height={30}
+            style={{height:"auto"}}
             className=""
           />
           <span>Nothing to search !</span>

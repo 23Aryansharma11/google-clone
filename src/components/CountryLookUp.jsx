@@ -17,11 +17,12 @@ export default function CountryLookUp() {
         } else {
           toast(
             <span className="flex justify-center items-center gap-2">
-              <img
+              <Image
                 src="/Images/CannotFetch.svg"
                 alt="Nothing to fetch"
                 width={30}
                 height={30}
+                style={{height:"auto"}}
                 className=""
               />
               <span>Cannot fetch Your Country!</span>
