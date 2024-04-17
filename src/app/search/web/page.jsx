@@ -1,7 +1,7 @@
 import WebSearchResult from "C/WebSearchResult";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 
 const WebSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams?.start || 1;
@@ -39,9 +39,11 @@ const WebSearchPage = async ({ searchParams }) => {
     );
   }
   return (
-    <div>
+    <Suspense>
+      <div>
       <WebSearchResult results={data} />
     </div>
+    </Suspense>
   );
 };
 

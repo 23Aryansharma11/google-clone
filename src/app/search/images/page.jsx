@@ -1,8 +1,7 @@
 import ImageSearchResult from "C/ImageSearchResult";
-import WebSearchResult from "C/WebSearchResult"; 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 
 const ImageSearchPage = async ({ searchParams }) => {
   const startIndex = searchParams?.start || 1;
@@ -37,9 +36,11 @@ const ImageSearchPage = async ({ searchParams }) => {
     );
   }
   return (
-    <div>
+    <Suspense>
+      <div>
       <ImageSearchResult results={data} />
     </div>
+    </Suspense>
   );
 };
 
