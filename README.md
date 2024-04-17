@@ -11,7 +11,7 @@
 
 [X] Search Header component
 
-[ ] Data fetching
+[X] Data fetching
 
 [ ] Handling errors
 

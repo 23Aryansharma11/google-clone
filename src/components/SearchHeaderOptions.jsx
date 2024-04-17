@@ -7,7 +7,7 @@ const SearchHeaderOptions = () => {
     const searchTerm = searchParams.get("searchTerm");
     const router = useRouter();
     const handleTabSwitch = (tab) =>{
-        router.push(`/search/${tab === 'Images' ? "images" : "web"}?searchTerms=${searchTerm}`)
+        router.push(`/search/${tab === 'Images' ? "images" : "web"}?searchTerm=${searchTerm}`)
     }
   return (
     <div className="flex space-x-2 select-none border-b justify-center w-full lg:justify-start lg:pl-52 text-gray-700 text-sm">
