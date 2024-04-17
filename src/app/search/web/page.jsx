@@ -1,3 +1,4 @@
+import WebSearchResult from "C/WebSearchResult";
 import Link from "next/link";
 import React from "react";
 
@@ -37,8 +38,7 @@ const WebSearchPage = async ({ searchParams }) => {
   }
   return (
     <div>
-      {results &&
-        results.map((result, index) => <h1 key={index}>{result.title}</h1>)}
+      <WebSearchResult results={data} />
     </div>
   );
 };

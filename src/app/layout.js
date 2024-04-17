@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/icon?.png" type="image/png" sizes="any" />
       </head>
-      <body className={inter.className}>{children}
+      <body className={`${inter.className} relative min-h-screen`}>{children}
       <Footer />
       </body>
     </html>

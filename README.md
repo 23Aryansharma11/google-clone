@@ -15,7 +15,7 @@
 
 [X] Handling errors
 
-[ ] Search components
+[X] Search components
 
 [ ] Pagination
 
